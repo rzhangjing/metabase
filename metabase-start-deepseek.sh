@@ -10,7 +10,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 #   MB_LLM_DEEPSEEK_API_KEY=sk-xxxx ./metabase-start-deepseek.sh
 
 export MB_LLM_ALLOWED_NETWORKS="allow-all"
-export MB_LLM_DEEPSEEK_API_KEY="sk-ffb9ee9061634d9189a11079dc338787"
+export MB_LLM_DEEPSEEK_API_KEY=""
 export MB_LLM_DEEPSEEK_API_BASE_URL="${MB_LLM_DEEPSEEK_API_BASE_URL:-https://api.deepseek.com}"
 export MB_LLM_METABOT_PROVIDER="${MB_LLM_METABOT_PROVIDER:-deepseek/deepseek-v4-pro}"
 export MB_LLM_MINI_MODEL="${MB_LLM_MINI_MODEL:-deepseek/deepseek-v4-flash}"
